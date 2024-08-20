@@ -1,0 +1,46 @@
+footer
+{    
+ margin: 5px;
+}
+#final
+{
+    width: 50%;
+    color: midnightblue;
+    background-color:beige;
+    padding: 0px;
+    box-shadow: none;
+    border: none;
+}
+
+#fin
+{
+    color: darkred;
+}
+
+.red-soc{
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+}
+
+.red-soc a{ 
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/*-----------Responsive-----------*/
+
+/*Tablets*/
+@media(min-width: 768px){
+	#final{
+		width: 50%;
+		font-size: 15px;
+		padding: 10px;
+	}
+
+	footer .contenedor{
+		justify-content: space-between;
+	}
+}
+

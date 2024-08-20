@@ -1,0 +1,56 @@
+
+#info{
+	background:rgb(147, 205, 201);
+	color:crimson;
+	text-align: center;
+	padding: 2px;
+	font-size: 12px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#info h2{
+	padding: 15px;
+	text-transform: uppercase;
+	color: #081aa2;
+}
+
+#info .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.info-oferta{
+	margin:20px;
+	display: block;
+}
+
+.info-oferta img{
+	width: 250px;
+	height: 250px;
+	border-radius: 45px 10px 45px 10px;
+-moz-border-radius: 45px 10px 45px 10px;
+-webkit-border-radius: 45px 10px 45px 10px;
+border: 11px outset #faf3f2;
+}
+/*-----------Responsive-----------*/
+/*Dispositivo Movil*/
+@media(min-width: 480px){
+	.info-oferta{
+		width: 40%;
+	}
+}
+
+/*Tablets*/
+@media(min-width: 768px){
+	.info-oferta{
+		width: 40%;
+	}
+}
+
+/*Escritorio*/
+@media(min-width: 1024px){
+	.info-oferta{
+		width: auto;
+	}
+}

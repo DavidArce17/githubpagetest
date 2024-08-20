@@ -1,0 +1,31 @@
+#ubic{
+	background-color: beige;
+	color: #355084;
+	text-align: center;
+	padding: 10px;
+    margin: 5px 0px;
+}
+
+#ubic h3{
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#ubic .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 10px;
+}
+
+#ubic .contenedor iframe{
+	width: 40%;
+	border: 5px solid #ccc;
+}
+
+#ubic .contenedor p{
+	padding: 20px;
+	width: 50%;
+	text-align: center;
+}
